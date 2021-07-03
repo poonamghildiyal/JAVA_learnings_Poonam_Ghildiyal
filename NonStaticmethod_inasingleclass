@@ -1,0 +1,23 @@
+package mypack;
+
+public class Localglobalvariables {
+	static void first() // no Access specifier so by default it is package
+	{
+		System.out.println("this is static method");
+	}
+	void second() // non static method
+	{
+		System.out.println("this is non static method");
+	}
+    
+	public static void main(String[] args) {
+		
+        System.out.println("This is my main method");
+        first(); // as it is a static method no need to create object to access this method within the same class in a static method
+        Localglobalvariables obj = new Localglobalvariables();// to call non static methods inside a static method we created object
+        obj.second();
+        
+	}
+
+}
+
