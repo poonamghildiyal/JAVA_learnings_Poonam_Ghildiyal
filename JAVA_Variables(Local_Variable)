@@ -1,0 +1,31 @@
+Program 1:
+
+package mypack;
+
+public class Localglobalvariables {
+
+	public static void main(String[] args) {
+		int a ; // Local variable declaration
+		a = 10; // local variable intialization
+		System.out.println(a);
+
+	}
+
+}
+
+Program 2:
+package mypack;
+
+public class Localglobalvariables {
+
+	public static void main(String[] args) {
+		int a = 10 ; // Local variable declaration, local variable intialization
+		System.out.println(a);
+
+	}
+
+}
+
+
+
+
