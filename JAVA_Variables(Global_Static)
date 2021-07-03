@@ -1,0 +1,15 @@
+package mypack;
+
+public class Localglobalvariables {
+	static int a = 50; //  Global variable-static variable declaration and initialization
+    static int b ; // Global variable-static variable declaration
+    
+	public static void main(String[] args) {
+		
+        System.out.println(a); // to utilize static global variable no need to create obj inside the static method
+      b = 60; // Global variable-static variable initialization
+        System.out.println(b);
+	}
+
+}
+
