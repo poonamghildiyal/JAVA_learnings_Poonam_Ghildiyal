@@ -1,0 +1,21 @@
+package mypack;
+
+public class Localglobalvariables {
+	static void first() // no Access specifier so by default it is package
+	{
+		System.out.println("My first static method");
+	}
+	static void second()
+	{
+		System.out.println("My second static method");
+	}
+    
+	public static void main(String[] args) {
+		
+        System.out.println("This is my main method");
+        first(); // as it is a static method no need to create object to access this method within the same class in a static method
+        second();
+	}
+
+}
+
