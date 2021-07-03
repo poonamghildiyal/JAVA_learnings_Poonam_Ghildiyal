@@ -1,0 +1,15 @@
+package mypack;
+
+public class Localglobalvariables {
+	final int a = 50; // final Global variable-instance variable declaration and initialization
+    int b ; // Global variable-instance variable declaration
+    
+	public static void main(String[] args) {
+		Localglobalvariables obj = new Localglobalvariables();
+        System.out.println(obj.a); // here if we will try to change the value of a it will give syntax error boz it is declared as final variable
+System.out.println(obj.b) // without initialization of Global variable-instance variable if we print value of b then it will print the default value of b i.e. 0
+        
+	}
+
+}
+
