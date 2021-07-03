@@ -1,0 +1,14 @@
+package mypack;
+
+public class Localglobalvariables {
+	int a = 50; // Global variable-instance variable declaration and initialization
+    int b ; // Global variable-instance variable declaration
+	public static void main(String[] args) {
+		Localglobalvariables obj = new Localglobalvariables();
+        System.out.println(obj.a);
+        obj.b = 60; // Global variable-instance variable initialization
+        System.out.println(obj.b);
+	}
+
+}
+
